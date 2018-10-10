@@ -1,0 +1,62 @@
+Maneuver 
+description: Reverse Fold
+4
+before
+1 -2 3
+null
+null
+null
+after
+4
+null
+null
+null
+null
+
+Maneuver 
+description: Otside-reverse Fold
+4
+before
+1 2 3
+null
+null
+null
+after
+-4
+null
+null
+null
+null
+
+Maneuver 
+description: Squash Fold
+4
+before
+1 2 -3
+null
+null
+null
+after
+4
+null
+null
+null
+null
+
+Maneuver 
+description: Petal Fold
+6
+before
+1 2
+-2 4 3
+4 5
+null
+null
+null
+after
+1 2
+6
+7
+null
+null
+null

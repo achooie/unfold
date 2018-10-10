@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg contentScriptType="text/ecmascript" width="400" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" viewBox="0 0 600 600" height="450" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.0"
+>
+<defs id="defs1"
+  >
+<marker refY="0" preserveAspectRatio="xMidYMid meet" id="Arrow2Mend" style="overflow:visible;" orient="auto" refX="0"
+    >
+<path id="path1" d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z " style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;" transform="scale(0.6) rotate(180) translate(0,0)"
+    /></marker
+    >
+<marker refY="0.0" preserveAspectRatio="xMidYMid meet" id="PushArrow" style="overflow:visible;" orient="auto" refX="0.0"
+    > 
+<path style="fill:#FFFFFF;stroke:#000000;stroke-width:1;stroke-linecap:butt; stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" id="path2" d="M -0.67959949,0 -7.617562,-7.6952 -7.661756,-2.7836 c -4.098649,0.067 -7.910611,-0.8767 -11.23229,-2.6497 1.008667,2.8513 2.137562,4.1384 3.12203,5.1274 -1.023414,1.095 -2.12133,2.4352 -3.169334,5.1129 4.077885,-2.0537 7.229117,-2.6113 11.1876805,-2.6433 l 0.047303,4.7679 z"
+    /></marker
+    >
+</defs
+    >
+ <linearGradient x1="20%" xmlns:xlink="http://www.w3.org/1999/xlink" x2="80%" y1="0%" y2="100%" xlink:type="simple" xlink:actuate="onLoad" id="Gradient1" xlink:show="other"
+    >
+ <stop stop-color="#DDEEFF" offset="5%"
+      />
+ <stop stop-color="#7788FF" offset="95%"
+      />
+ </linearGradient
+      >
+ <linearGradient x1="20%" xmlns:xlink="http://www.w3.org/1999/xlink" x2="80%" y1="0%" y2="100%" xlink:type="simple" xlink:actuate="onLoad" id="Gradient2" xlink:show="other"
+      >
+ <stop stop-color="#FFFFEE" offset="5%"
+        />
+ <stop stop-color="#DDDDDD" offset="95%"
+        />
+ </linearGradient
+        >
+<rect fill="red" x="10" width="100" height="50" y="20"
+        /><path style="fill:url(#Gradient2);stroke:#0000ff;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;" d="M 100,100 120,100 120,120 z"
+        /><path style="stroke:none;stroke-width:4;marker-end:url(#PushArrow)" d="M 220,100 220,120 z"
+      /></svg
+    >
