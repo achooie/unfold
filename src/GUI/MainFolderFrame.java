@@ -17,10 +17,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import origamid.GeomUtilD;
 import origamid.Unfolder;
-import oripa.Constants;
-import oripa.Doc;
-import oripa.Folder;
-import oripa.ORIPA;
+import oripa.*;
 import oripa.geom.OriVertex;
 import translations.ExporterSVG;
 import translations.FromToOripa;
@@ -514,7 +511,8 @@ public class MainFolderFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jToggleButtonSelectKeyPressed
 
     private void jToggleButtonSelectFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jToggleButtonSelectFocusLost
-        ((FoldedModelScreen) jPanelCurrentStep.getComponent(0)).unSelected();
+//        ((FoldedModelScreen) jPanelCurrentStep.getComponent(0)).unSelected();
+        ((FoldedModelScreen) jPanelCurrentStep.getComponent(1)).unSelected();
     }//GEN-LAST:event_jToggleButtonSelectFocusLost
 
     private void jCheckBoxShowCPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxShowCPActionPerformed
