@@ -93,22 +93,25 @@ public class Diagram {
         while (!faces.isEmpty()) {
             //mudar!!!!!!!!!!!!!!!!!!!!!!
             faceLayers.add(getLayer(faces, layerNumber));
-//        faceLayers.add(splitFace1(faces));
-//        System.out.println("visible layer");
-//        for (FaceArea faceArea : faceLayers.get(layerNumber)) {
-//            faceArea.buildElement(CanvasSVG1.createNewDocument(0, 0));
-//            faceArea.updateElement(false, 1);
-//            Element path = (Element) (faceArea.domElement.getElementsByTagName("path")).item(0);
-//            printElement(path);
-//        }
-//        System.out.println("hidden faces");
-//        for (FaceArea faceArea : faces) {
-//            faceArea.buildElement(CanvasSVG1.createNewDocument(0, 0));
-//            faceArea.updateElement(false, 1);
-//            Element path = (Element) (faceArea.domElement.getElementsByTagName("path")).item(0);
-//            printElement(path);
-//        }
+            System.out.println("*** faces length: " + faces.size());
+            //commented begin
+//            faceLayers.add(splitFace1(faces));
+//            System.out.println("visible layer");
+//            for (FaceArea faceArea : faceLayers.get(layerNumber)) {
+//                faceArea.buildElement(CanvasSVG1.createNewDocument(0, 0));
+//                faceArea.updateElement(false, 1);
+//                Element path = (Element) (faceArea.domElement.getElementsByTagName("path")).item(0);
+//                //printElement(path);
+//            }
+//            System.out.println("hidden faces");
+//            for (FaceArea faceArea : faces) {
+//                faceArea.buildElement(CanvasSVG1.createNewDocument(0, 0));
+//                faceArea.updateElement(false, 1);
+//                Element path = (Element) (faceArea.domElement.getElementsByTagName("path")).item(0);
+//                //printElement(path);
+//            }
 //            System.exit(-1);
+            // commented end
             layerNumber++;
         }
 //        System.exit(42);
