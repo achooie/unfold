@@ -1,5 +1,6 @@
 package translations;
 
+import diagram.CanvasSVG1;
 import diagram.DiagramSymbol;
 import GUI.FoldedModelScreen;
 import diagram.CanvasSVG;
@@ -162,7 +163,7 @@ public class ExporterSVG {
 
     public static void exportSVG(Component[] sequence, String filePath) throws UnsupportedEncodingException, TransformerConfigurationException, TransformerException, IOException {
 
-        Document document = CanvasSVG.createNewDocument(size, size * sequence.length);
+        Document document = CanvasSVG1.createNewDocument(size, size * sequence.length);
 
         FileWriter fw = new FileWriter(filePath);
 //        ((CanvasSVG) sequence[0]).getSVGDocument().;
@@ -171,7 +172,7 @@ public class ExporterSVG {
         Transformer transformer = tFactory.newTransformer();
 
         for (int i = 0; i < sequence.length; i++) {
-            CanvasSVG canvasi = ((CanvasSVG) sequence[i]);
+            CanvasSVG1 canvasi = ((CanvasSVG1) sequence[i]);
             String transfScaleGroup = "translate(" + size / 2 + "," + (i + 0.5) * size + ") scale(" + size / 600 + ") ";
             Vector2d modelCenter = canvasi.modelCenter;
             if (!canvasi.isFlipped) {

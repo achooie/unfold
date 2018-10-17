@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/lastPath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lastPath.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/diagram/Diagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diagram/Diagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translations/ExporterSVG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/translations/ExporterSVG.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +39,7 @@
           <entry key="class" value="12" />
           <entry key="form" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="48" />
+          <entry key="java" value="49" />
           <entry key="mf" value="1" />
           <entry key="properties" value="2" />
           <entry key="xhtml" value="1" />
@@ -50,7 +51,7 @@
           <entry key="CLASS" value="12" />
           <entry key="GUI_DESIGNER_FORM" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="49" />
           <entry key="Manifest" value="1" />
           <entry key="Properties" value="2" />
           <entry key="XHTML" value="1" />
@@ -60,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="22" />
-          <entry key="java" value="3196" />
+          <entry key="java" value="3264" />
           <entry key="xhtml" value="2" />
           <entry key="xml" value="699" />
         </counts>
@@ -68,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="22" />
-          <entry key="JAVA" value="3196" />
+          <entry key="JAVA" value="3264" />
           <entry key="XHTML" value="2" />
           <entry key="XML" value="699" />
         </counts>
@@ -82,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="190" column="30" lean-forward="true" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+              <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -119,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="166" column="45" lean-forward="true" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
+            <state relative-caret-position="-135">
+              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -128,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="190" column="17" lean-forward="true" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
+            <state relative-caret-position="259">
+              <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#9733#9822#0" expanded="true" />
@@ -138,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/diagram/Diagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="211" selection-start-line="211" selection-end-line="211" />
+            <state relative-caret-position="121">
+              <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -150,8 +151,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/diagram/CanvasSVG1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="107" column="42" lean-forward="true" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+            <state relative-caret-position="36">
+              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,20 +169,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/MainFrame1.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/translations/ExporterSVG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="16">
+              <caret line="174" column="45" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/diagram/FaceRegion.java">
+        <entry file="file://$PROJECT_DIR$/src/GUI/MainFrame1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="317">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -226,6 +230,7 @@
       <find>diagram(</find>
       <find>canvassvg1</find>
       <find>setnext</find>
+      <find>export</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,7 +242,6 @@
         <option value="$PROJECT_DIR$/nbproject/build-impl.xml" />
         <option value="$PROJECT_DIR$/pom.xhtml" />
         <option value="$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG.java" />
-        <option value="$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG1.java" />
         <option value="$PROJECT_DIR$/src/GUI/FoldedModelScreen.java" />
         <option value="$PROJECT_DIR$/src/diagram/FaceArea.java" />
         <option value="$PROJECT_DIR$/src/diagram/CanvasSVG.java" />
@@ -247,7 +251,6 @@
         <option value="$PROJECT_DIR$/src/Simplification/CP.java" />
         <option value="$PROJECT_DIR$/src/origamid/GeomUtilD.java" />
         <option value="$PROJECT_DIR$/src/diagram/CanvasSVG1.java" />
-        <option value="$PROJECT_DIR$/src/translations/ExporterSVG.java" />
         <option value="$PROJECT_DIR$/src/GUI/CPScreenSVG.java" />
         <option value="$PROJECT_DIR$/src/GUI/MainFolderFrame.java" />
         <option value="$PROJECT_DIR$/src/GUI/CPScreen.java" />
@@ -258,6 +261,8 @@
         <option value="$PROJECT_DIR$/src/GUI/MainFrame1.java" />
         <option value="$PROJECT_DIR$/src/GUI/MainDeveloperFrame.java" />
         <option value="$PROJECT_DIR$/src/diagram/Diagram.java" />
+        <option value="$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG1.java" />
+        <option value="$PROJECT_DIR$/src/translations/ExporterSVG.java" />
       </list>
     </option>
   </component>
@@ -321,6 +326,12 @@
             </path>
             <path>
               <item name="origamid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrigamiD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="translations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="origamid" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -346,9 +357,9 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539612451906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539771188629" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -471,8 +482,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainDeveloperFrameSVG1" />
-        <item itemvalue="Application.MainDeveloperFrame" />
         <item itemvalue="Application.MainDeveloperFrameSVG" />
+        <item itemvalue="Application.MainDeveloperFrame" />
         <item itemvalue="Application.OrigamiD" />
       </list>
     </recent_temporary>
@@ -706,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/translations/ExporterSVG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/diagram/FaceRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -731,13 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="166" column="45" lean-forward="true" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -765,7 +762,7 @@
     <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="190" column="30" lean-forward="true" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+          <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -776,10 +773,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/diagram/Diagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diagram/CanvasSVG1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/MainDeveloperFrameSVG1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="190" column="17" lean-forward="true" selection-start-line="190" selection-start-column="17" selection-end-line="190" selection-end-column="17" />
+        <state relative-caret-position="259">
+          <caret line="149" column="24" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#9733#9822#0" expanded="true" />
@@ -787,20 +808,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diagram/CanvasSVG1.java">
+    <entry file="file://$PROJECT_DIR$/src/translations/ExporterSVG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="107" column="42" lean-forward="true" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+        <state relative-caret-position="16">
+          <caret line="174" column="45" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diagram/Diagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
         </state>
       </provider>
     </entry>

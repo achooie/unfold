@@ -90,10 +90,9 @@ public class Diagram {
         //insert faces in the layers    
         ArrayList<FaceArea> faces = (ArrayList<FaceArea>) originalFaces.clone();
         int layerNumber = 0;
-        while (!faces.isEmpty()) {
+        while (!faces.isEmpty() && layerNumber < 50) {
             //mudar!!!!!!!!!!!!!!!!!!!!!!
             faceLayers.add(getLayer(faces, layerNumber));
-            System.out.println("*** faces length: " + faces.size());
             //commented begin
 //            faceLayers.add(splitFace1(faces));
 //            System.out.println("visible layer");
